@@ -4,7 +4,11 @@ import android.os.Bundle;
 
 import com.example.androidslidingmenuuse.R;
 import com.example.androidslidingmenuuse.activity.base.BaseActivity;
-
+/**
+ * 社区
+ * @author miaowei
+ *
+ */
 public class SNSActivity extends BaseActivity{
 
 	@Override

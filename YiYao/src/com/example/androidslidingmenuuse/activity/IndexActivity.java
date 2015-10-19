@@ -22,7 +22,11 @@ import android.widget.Toast;
 
 import com.example.androidslidingmenuuse.R;
 import com.example.androidslidingmenuuse.activity.base.BaseActivity;
-
+/**
+ * 首页
+ * @author miaowei
+ *
+ */
 public class IndexActivity extends BaseActivity {
     private ViewPager viewPager;//页卡内容  
     private ImageView imageView;// 动画图片  
@@ -176,7 +180,7 @@ public class IndexActivity extends BaseActivity {
           animation.setFillAfter(true);// True:图片停在动画结束位置  
           animation.setDuration(300);  
           imageView.startAnimation(animation);  
-          Toast.makeText(IndexActivity.this, "您选择了"+ viewPager.getCurrentItem()+"页卡", Toast.LENGTH_SHORT).show();  
+          //Toast.makeText(IndexActivity.this, "您选择了"+ viewPager.getCurrentItem()+"页卡", Toast.LENGTH_SHORT).show();  
       }  
         
   }  
