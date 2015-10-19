@@ -1,0 +1,27 @@
+# view res/layout/activity_index.xml #generated:51
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.example.androidslidingmenuuse.activity.ContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.example.androidslidingmenuuse.activity.IndexActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:17
+-keep class com.example.androidslidingmenuuse.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.example.androidslidingmenuuse.activity.SNSActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.example.androidslidingmenuuse.activity.ShopActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
+-keep class com.example.androidslidingmenuuse.application.Application { <init>(...); }
+
+# view res/layout/left_drawer_fragment.xml #generated:307
+-keep class com.example.androidslidingmenuuse.view.SwitchButton { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+
